@@ -17,6 +17,7 @@
 		FD8785A9259379FA006CC112 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8785A8259379FA006CC112 /* ComplicationController.swift */; };
 		FD8785AB259379FB006CC112 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD8785AA259379FB006CC112 /* Assets.xcassets */; };
 		FD8785AE259379FB006CC112 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD8785AD259379FB006CC112 /* Preview Assets.xcassets */; };
+		FD8785C625937CA7006CC112 /* Color+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8785C525937CA7006CC112 /* Color+SwiftUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		FD8785AD259379FB006CC112 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD8785AF259379FB006CC112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD8785B0259379FB006CC112 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		FD8785C525937CA7006CC112 /* Color+SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+SwiftUI.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 			children = (
 				FD8785A0259379FA006CC112 /* WatchComplicationsForSwiftUIApp.swift */,
 				FD8785A2259379FA006CC112 /* ContentView.swift */,
+				FD8785C425937C7F006CC112 /* Extension */,
 				FD8785A4259379FA006CC112 /* NotificationController.swift */,
 				FD8785A6259379FA006CC112 /* NotificationView.swift */,
 				FD8785A8259379FA006CC112 /* ComplicationController.swift */,
@@ -139,6 +142,14 @@
 				FD8785AD259379FB006CC112 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FD8785C425937C7F006CC112 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FD8785C525937CA7006CC112 /* Color+SwiftUI.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +281,7 @@
 				FD8785A5259379FA006CC112 /* NotificationController.swift in Sources */,
 				FD8785A3259379FA006CC112 /* ContentView.swift in Sources */,
 				FD8785A9259379FA006CC112 /* ComplicationController.swift in Sources */,
+				FD8785C625937CA7006CC112 /* Color+SwiftUI.swift in Sources */,
 				FD8785A1259379FA006CC112 /* WatchComplicationsForSwiftUIApp.swift in Sources */,
 				FD8785A7259379FA006CC112 /* NotificationView.swift in Sources */,
 			);
