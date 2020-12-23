@@ -19,7 +19,7 @@ struct TimeTableView: View {
             Text(operationSchedule.trainType.kind.name)
                 .font(.footnote)
                 .bold()
-                .frame(width: 40.0)
+                .frame(width: 30.0)
                 .foregroundColor(.white)
                 .background(operationSchedule.trainType.kind.color)
             Image(operationSchedule.finalStaIcon)
