@@ -20,6 +20,7 @@
 		FD8785C625937CA7006CC112 /* Color+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8785C525937CA7006CC112 /* Color+SwiftUI.swift */; };
 		FD8785CF25937D39006CC112 /* OperationSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8785CE25937D39006CC112 /* OperationSchedule.swift */; };
 		FD8785D825937D95006CC112 /* TrainType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8785D725937D95006CC112 /* TrainType.swift */; };
+		FD8785E125937E44006CC112 /* TimeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8785E025937E44006CC112 /* TimeTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		FD8785C525937CA7006CC112 /* Color+SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+SwiftUI.swift"; sourceTree = "<group>"; };
 		FD8785CE25937D39006CC112 /* OperationSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationSchedule.swift; sourceTree = "<group>"; };
 		FD8785D725937D95006CC112 /* TrainType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainType.swift; sourceTree = "<group>"; };
+		FD8785E025937E44006CC112 /* TimeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				FD8785A0259379FA006CC112 /* WatchComplicationsForSwiftUIApp.swift */,
-				FD8785A2259379FA006CC112 /* ContentView.swift */,
+				FD8785DF25937E2C006CC112 /* View */,
 				FD8785CD25937D0F006CC112 /* Model */,
 				FD8785D625937D7F006CC112 /* Enum */,
 				FD8785C425937C7F006CC112 /* Extension */,
@@ -172,6 +174,15 @@
 				FD8785D725937D95006CC112 /* TrainType.swift */,
 			);
 			path = Enum;
+			sourceTree = "<group>";
+		};
+		FD8785DF25937E2C006CC112 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD8785A2259379FA006CC112 /* ContentView.swift */,
+				FD8785E025937E44006CC112 /* TimeTableView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,6 +319,7 @@
 				FD8785C625937CA7006CC112 /* Color+SwiftUI.swift in Sources */,
 				FD8785A1259379FA006CC112 /* WatchComplicationsForSwiftUIApp.swift in Sources */,
 				FD8785A7259379FA006CC112 /* NotificationView.swift in Sources */,
+				FD8785E125937E44006CC112 /* TimeTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

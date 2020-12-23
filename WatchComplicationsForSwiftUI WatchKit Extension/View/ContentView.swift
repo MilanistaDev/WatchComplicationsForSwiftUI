@@ -9,8 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
-            .padding()
+        VStack {
+            ForEach(0..<sampleData.count) { index in
+                TimeTableView(operationSchedule: sampleData[index])
+            }
+        }
+        .padding()
+        .background(Color.noticeBg)
     }
 }
 
