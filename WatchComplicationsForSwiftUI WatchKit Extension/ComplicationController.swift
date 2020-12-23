@@ -73,3 +73,11 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
         }
     }
 }
+
+struct ComplicationController_Previews: PreviewProvider {
+    static var previews: some View {
+        ForEach(CLKComplicationTemplate.PreviewFaceColor.allColors) { color in
+            CLKComplicationTemplateGraphicRectangularFullView(ContentView()).previewContext(faceColor: color).edgesIgnoringSafeArea(.all)
+        }
+    }
+}
